@@ -1,0 +1,92 @@
+{
+  "relationships": [
+    {
+      "id": "REL-OEBGD-KEGS-REVALIDATION",
+      "relationship_type": "requires_fgS_revalidation",
+      "from_type": "event",
+      "from_id": "OEBGD-V1-CHANGE1-2026",
+      "to_type": "event",
+      "to_id": "FGS-ROK-KEGS-2024",
+      "status": "review_required",
+      "rationale": "The current public KEGS is a 2024 document implementing the 2020 OEBGD baseline; the 2026 OEBGD change requires LEC review.",
+      "source_ids": ["SRC-OEBGD-V1-C1-2026", "SRC-USFK-KEGS-2024"]
+    },
+    {
+      "id": "REL-OEBGD-JEGS-REVALIDATION",
+      "relationship_type": "requires_fgS_revalidation",
+      "from_type": "event",
+      "from_id": "OEBGD-V1-CHANGE1-2026",
+      "to_type": "event",
+      "to_id": "FGS-JPN-JEGS-2024",
+      "status": "review_required",
+      "rationale": "The current public JEGS is a 2024 document implementing the 2020 OEBGD baseline; the 2026 OEBGD change requires review under the stated amendment cycle and LEC process.",
+      "source_ids": ["SRC-OEBGD-V1-C1-2026", "SRC-USFJ-JEGS-2024"]
+    },
+    {
+      "id": "REL-OEBGD-GFGS-REVALIDATION",
+      "relationship_type": "requires_fgS_revalidation",
+      "from_type": "event",
+      "from_id": "OEBGD-V1-CHANGE1-2026",
+      "to_type": "event",
+      "to_id": "FGS-DEU-GFGS-2019-PUBLIC",
+      "status": "high_priority_review_required",
+      "rationale": "The public Germany FGS copy predates the 2020 OEBGD baseline and is not verified as current.",
+      "source_ids": ["SRC-OEBGD-V1-C1-2026", "SRC-DE-GFGS-2019-PUBLIC-COPY", "SRC-DENIX-FGS"]
+    },
+    {
+      "id": "REL-KEGS-ROK-WATER",
+      "relationship_type": "host_nation_crosswalk",
+      "from_type": "event",
+      "from_id": "FGS-ROK-KEGS-2024",
+      "to_type": "event",
+      "to_id": "ROK-WATER-ENV-LAW-2026",
+      "status": "crosswalk_required",
+      "rationale": "The Korean water law is a host-nation anchor that must be compared with applicable KEGS water and wastewater provisions.",
+      "source_ids": ["SRC-USFK-KEGS-2024", "SRC-ROK-WATER-LAW"]
+    },
+    {
+      "id": "REL-JEGS-JPN-WATER",
+      "relationship_type": "host_nation_crosswalk",
+      "from_type": "event",
+      "from_id": "FGS-JPN-JEGS-2024",
+      "to_type": "event",
+      "to_id": "JPN-PFAS-DRINKING-WATER-2026",
+      "status": "crosswalk_required",
+      "rationale": "The Japanese drinking-water standard must be evaluated against the applicable JEGS provisions and facility water-supplier responsibilities.",
+      "source_ids": ["SRC-USFJ-JEGS-2024", "SRC-JPN-PFAS-WATER-2025"]
+    },
+    {
+      "id": "REL-JEGS-JPN-PFHXS",
+      "relationship_type": "host_nation_crosswalk",
+      "from_type": "event",
+      "from_id": "FGS-JPN-JEGS-2024",
+      "to_type": "event",
+      "to_id": "JPN-PFHXS-CSCL-2026",
+      "status": "crosswalk_required",
+      "rationale": "PFHxS-related chemical controls should be reviewed against JEGS chemical, firefighting-agent, procurement, and contractor provisions.",
+      "source_ids": ["SRC-USFJ-JEGS-2024", "SRC-JPN-PFHXS-CSCL-2025"]
+    },
+    {
+      "id": "REL-GFGS-DEU-WATER",
+      "relationship_type": "host_nation_crosswalk",
+      "from_type": "event",
+      "from_id": "FGS-DEU-GFGS-2019-PUBLIC",
+      "to_type": "event",
+      "to_id": "DEU-PFAS-DRINKING-WATER-2026",
+      "status": "blocked_pending_fgs_validation",
+      "rationale": "The Germany host-nation drinking-water limits are current, but the public GFGS copy is not verified as the current approved FGS.",
+      "source_ids": ["SRC-DE-GFGS-2019-PUBLIC-COPY", "SRC-DE-UBA-DRINKING-WATER"]
+    },
+    {
+      "id": "REL-GFGS-EU-FOAM",
+      "relationship_type": "host_nation_crosswalk",
+      "from_type": "event",
+      "from_id": "FGS-DEU-GFGS-2019-PUBLIC",
+      "to_type": "event",
+      "to_id": "EU-REACH-PFAS-FOAM-2025",
+      "status": "blocked_pending_fgs_validation",
+      "rationale": "The EU restriction is directly applicable in Member States, but installation and contractor applicability must be reconciled with SOFA and the current Germany FGS.",
+      "source_ids": ["SRC-DE-GFGS-2019-PUBLIC-COPY", "SRC-EU-REACH-FOAM-2025"]
+    }
+  ]
+}

@@ -1,0 +1,387 @@
+{
+  "events": [
+    {
+      "id": "US-CERCLA-PFOA-PFOS-2024",
+      "title": "PFOA and PFOS designated as CERCLA hazardous substances",
+      "record_type": "final-rule",
+      "layer_id": "us-federal",
+      "jurisdiction_id": "US-FED",
+      "status": "effective_under_litigation",
+      "publication_date": "2024-05-08",
+      "effective_date": "2024-07-08",
+      "date_precision": "day",
+      "summary": "EPA added PFOA and PFOS, including their salts and structural isomers, to the CERCLA hazardous-substance list.",
+      "determination": "PFOA and PFOS are currently treated by EPA as CERCLA hazardous substances. The designation does not by itself make every contaminated waste stream RCRA hazardous waste or automatically assign liability.",
+      "operational_relevance": [
+        "environmental due diligence",
+        "federal property transfer",
+        "release reporting",
+        "site investigation and cleanup",
+        "potentially responsible party analysis"
+      ],
+      "facts": [
+        "The final rule was published in the Federal Register on 2024-05-08.",
+        "EPA's current FAQ states that PFOA and PFOS remain hazardous substances while litigation continues."
+      ],
+      "inferences": [
+        "The designation should be connected to federal property, installation, acquisition, disposal, and environmental-liability workflows."
+      ],
+      "verification_need": [
+        "Add and maintain the primary federal court opinion and docket posture for any challenge to the designation."
+      ],
+      "source_ids": ["SRC-US-CERCLA-PFOA-PFOS-2024", "SRC-EPA-CERCLA-FAQ-2026"],
+      "parent_ids": [],
+      "review_state": "verified",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "OEBGD-V1-CHANGE1-2026",
+      "title": "OEBGD Volume 1 Change 1 becomes effective",
+      "record_type": "oebgd-change",
+      "layer_id": "oebgd",
+      "jurisdiction_id": "DOD-OVERSEAS",
+      "status": "effective",
+      "publication_date": "2020-06-29",
+      "effective_date": "2026-07-27",
+      "date_precision": "day",
+      "summary": "Change 1 to OEBGD Volume 1 is listed as effective July 27, 2026. The document covers conservation and updates climate-change language, responsibilities, references, and formatting.",
+      "determination": "This is an active OEBGD version event and a revalidation trigger for country FGS documents that may have been developed from the 2020 baseline.",
+      "operational_relevance": [
+        "FGS currency",
+        "LEC review",
+        "installation compliance planning",
+        "tenant and contractor requirements"
+      ],
+      "facts": [
+        "The official DoD Manuals directory lists Volume 1 Change 1 as effective July 27, 2026.",
+        "The manual states that unincorporated OEBGD revisions require use of the more protective standard where applicable."
+      ],
+      "inferences": [
+        "The change should trigger country-level FGS revalidation even where Volume 1 is not PFAS-specific, because it changes the governing baseline and review process."
+      ],
+      "verification_need": [
+        "Confirm with each responsible LEC whether the change has been considered and incorporated into the current FGS."
+      ],
+      "source_ids": ["SRC-DOD-MANUALS", "SRC-OEBGD-V1-C1-2026", "SRC-DODI-4715-05"],
+      "parent_ids": [],
+      "review_state": "verified",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "FGS-ROK-KEGS-2024",
+      "title": "2024 Korea Environmental Governing Standards",
+      "record_type": "fgs-revision",
+      "layer_id": "fgs",
+      "jurisdiction_id": "ROK",
+      "status": "effective",
+      "publication_date": "2024-08-26",
+      "effective_date": "2024-08-26",
+      "date_precision": "day",
+      "fgs_name": "Korea Environmental Governing Standards / USFK Manual 4715.05",
+      "fgs_version": "2024",
+      "review_cycle": "five years stated in the manual, with interim monitoring",
+      "summary": "USFK's 2024 EGS revision updates environmental standards for DoD components on facilities and areas made available by the Republic of Korea under the SOFA.",
+      "determination": "The 2024 KEGS is the current public Korea FGS anchor for this starter project. It incorporates Korean standards where the applicable Korean criterion is more stringent and maps requirements to water, waste, storage, spills, soil screening, and contractor activities.",
+      "operational_relevance": [
+        "USFK installation environmental compliance",
+        "drinking water and wastewater",
+        "groundwater and soil screening",
+        "hazardous waste manifests",
+        "contractor permits",
+        "AFFF and spill response"
+      ],
+      "facts": [
+        "The public document is dated August 26, 2024.",
+        "The manual identifies USFK as the Lead Environmental Component for the Republic of Korea.",
+        "The manual states that it implements DoDI 4715.05 and OEBGD."
+      ],
+      "inferences": [
+        "The 2026 OEBGD Volume 1 change should be represented as a KEGS revalidation task rather than presumed incorporation."
+      ],
+      "verification_need": [
+        "Confirm the LEC's current OEBGD-to-KEGS crosswalk and any PFAS-specific Korean updates since the 2024 revision."
+      ],
+      "source_ids": ["SRC-USFK-PUBLICATIONS", "SRC-USFK-KEGS-2024", "SRC-DODI-4715-05"],
+      "parent_ids": ["OEBGD-V1-CHANGE1-2026"],
+      "review_state": "needs_revalidation",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "FGS-JPN-JEGS-2024",
+      "title": "2024 Japan Environmental Governing Standards",
+      "record_type": "fgs-revision",
+      "layer_id": "fgs",
+      "jurisdiction_id": "JPN",
+      "status": "effective",
+      "publication_date": "2024-04-01",
+      "effective_date": "2024-04-01",
+      "date_precision": "month",
+      "date_note": "The public document identifies April 2024; exact issuance day is not used for legal dating.",
+      "fgs_name": "Japan Environmental Governing Standards",
+      "fgs_version": "2024",
+      "review_cycle": "two years stated by USFJ",
+      "summary": "USFJ's 2024 JEGS reconciles U.S. requirements, international agreements, and applicable Japanese environmental standards, adopting the more protective standard where required by the FGS framework.",
+      "determination": "The 2024 JEGS is the current public Japan FGS anchor for this starter project. Applicability must be tested against exclusive-use, limited-use, joint-use, contractor, and off-installation contexts.",
+      "operational_relevance": [
+        "USFJ installation environmental compliance",
+        "drinking water",
+        "chemical controls",
+        "waste and disposal",
+        "AFFF and firefighting systems",
+        "contractor requirements"
+      ],
+      "facts": [
+        "USFJ identifies the 2024 JEGS as promulgated through the bilateral amendment process.",
+        "The JEGS states that it is the primary environmental standards source for U.S. Forces Japan and is updated on a two-year cycle."
+      ],
+      "inferences": [
+        "The 2026 OEBGD Volume 1 change should create a JEGS revalidation task."
+      ],
+      "verification_need": [
+        "Confirm whether a 2026 JEGS revision or interim amendment has been issued."
+      ],
+      "source_ids": ["SRC-USFJ-JEGS-PAGE", "SRC-USFJ-JEGS-2024", "SRC-DODI-4715-05"],
+      "parent_ids": ["OEBGD-V1-CHANGE1-2026"],
+      "review_state": "needs_revalidation",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "FGS-DEU-GFGS-2019-PUBLIC",
+      "title": "Publicly identified 2019 German FGS revision",
+      "record_type": "fgs-revision",
+      "layer_id": "fgs",
+      "jurisdiction_id": "DEU",
+      "status": "discovery_only",
+      "publication_date": "2019-09-01",
+      "date_precision": "month",
+      "date_note": "Public search result identifies a September 2019 revision; current approved status is not established by the public copy.",
+      "fgs_name": "German Final Governing Standards",
+      "fgs_version": "2019 public copy",
+      "summary": "A public copy identifies a Germany FGS revision containing chapters on water, wastewater, hazardous materials and waste, spills, storage tanks, air, pesticides, natural resources, and related subjects.",
+      "determination": "This record is a discovery anchor only. It must not be treated as the current German FGS without validation through the responsible European authority or LEC.",
+      "operational_relevance": [
+        "Germany/EU FGS currency",
+        "installation compliance",
+        "PFAS drinking water",
+        "firefighting foam",
+        "waste and spill management"
+      ],
+      "facts": [
+        "The public copy is not hosted on a standard DoD publication page.",
+        "The public copy predates the 2020 OEBGD baseline and the 2026 OEBGD Volume 1 change."
+      ],
+      "inferences": [
+        "Germany should receive a high-priority FGS currency and source-verification task before definitive compliance mapping."
+      ],
+      "verification_need": [
+        "Obtain or confirm the current approved GFGS through USEUCOM, the European LEC structure, or the responsible installation environmental authority."
+      ],
+      "source_ids": ["SRC-DE-GFGS-2019-PUBLIC-COPY", "SRC-DENIX-FGS", "SRC-DODI-4715-05"],
+      "parent_ids": ["OEBGD-V1-CHANGE1-2026"],
+      "review_state": "needs_revalidation",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "ROK-WATER-ENV-LAW-2026",
+      "title": "Current consolidated Korean Water Environment Conservation Act",
+      "record_type": "statute",
+      "layer_id": "host-nation",
+      "jurisdiction_id": "ROK",
+      "status": "effective",
+      "effective_date": "2026-02-19",
+      "date_precision": "day",
+      "summary": "The Korean legal portal identifies a current Water Environment Conservation Act version effective February 19, 2026.",
+      "determination": "This is a host-nation legal anchor for water-quality and discharge crosswalks. PFAS-specific provisions must be established from the relevant current provisions, subordinate standards, and official notices rather than inferred from the statute title.",
+      "operational_relevance": [
+        "wastewater discharge",
+        "water-quality monitoring",
+        "ROK/KEGS comparison",
+        "contractor and off-installation activities"
+      ],
+      "facts": [
+        "The source is the Republic of Korea National Law Information Center.",
+        "The current consolidated page states an effective date of February 19, 2026."
+      ],
+      "inferences": [
+        "The statute should be crosswalked to KEGS water and wastewater provisions and to any Korean PFAS standards or monitoring notices."
+      ],
+      "verification_need": [
+        "Identify the exact current Korean provisions, subordinate standards, and PFAS-specific water notices that apply to the relevant installation or activity."
+      ],
+      "source_ids": ["SRC-ROK-WATER-LAW", "SRC-USFK-KEGS-2024"],
+      "parent_ids": ["FGS-ROK-KEGS-2024"],
+      "review_state": "needs_revalidation",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "JPN-PFAS-DRINKING-WATER-2026",
+      "title": "Japan PFOS/PFOA drinking-water standard becomes effective",
+      "record_type": "regulation",
+      "layer_id": "host-nation",
+      "jurisdiction_id": "JPN",
+      "status": "effective",
+      "publication_date": "2025-06-30",
+      "effective_date": "2026-04-01",
+      "date_precision": "day",
+      "substances": ["PFOS", "PFOA"],
+      "summary": "Japan established a combined PFOS/PFOA drinking-water standard of 0.00005 mg/L, equal to 50 ng/L, with testing generally at least once every three months. A combined 50 ng/L guideline also applies to public waters and groundwater.",
+      "determination": "The standard is effective under Japanese water-supply rules. Its application to a particular U.S. facility must still be determined through JEGS, SOFA, facility status, water-supplier responsibility, and LEC review.",
+      "operational_relevance": [
+        "drinking-water monitoring",
+        "water treatment",
+        "installation water suppliers",
+        "public water and groundwater interface",
+        "JEGS crosswalk"
+      ],
+      "facts": [
+        "Japan's Ministry of the Environment published the relevant amendments on June 30, 2025.",
+        "The standard and testing requirements took effect April 1, 2026."
+      ],
+      "inferences": [
+        "USFJ installations and contractors involved in water supply or treatment should have a documented applicability and analytical-method review."
+      ],
+      "verification_need": [
+        "Confirm how the current Japanese standard is reflected in the applicable JEGS edition and installation water program."
+      ],
+      "source_ids": ["SRC-JPN-PFAS-WATER-2025", "SRC-USFJ-JEGS-2024"],
+      "parent_ids": ["FGS-JPN-JEGS-2024"],
+      "review_state": "verified",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "JPN-PFHXS-CSCL-2026",
+      "title": "Japan PFHxS-related chemical-control designation",
+      "record_type": "regulation",
+      "layer_id": "host-nation",
+      "jurisdiction_id": "JPN",
+      "status": "needs_revalidation",
+      "publication_date": "2025-12-12",
+      "effective_date": "2026-06-17",
+      "date_precision": "day",
+      "substances": ["PFHxS-related substances"],
+      "summary": "Japan's Environment Ministry announced designation of PFHxS-related substances as Class I Specified Chemical Substances, including controls concerning specified products and firefighting agents.",
+      "determination": "The official announcement scheduled the principal designation for June 17, 2026. The tracker should verify final promulgation, the defined substance group, exemptions, and implementing technical standards before treating every operational detail as settled.",
+      "operational_relevance": [
+        "AFFF and firefighting-agent inventory",
+        "chemical procurement",
+        "import and product controls",
+        "contractor supply chains",
+        "JEGS crosswalk"
+      ],
+      "facts": [
+        "The announcement identifies PFHxS-related substances as subject to Class I controls.",
+        "The announcement identifies June 17, 2026 as the scheduled effective date for principal provisions."
+      ],
+      "inferences": [
+        "Japan-based installations should review PFHxS-related firefighting products and procurement records."
+      ],
+      "verification_need": [
+        "Confirm final implementing ordinances and the final substance-group definition after the scheduled effective date."
+      ],
+      "source_ids": ["SRC-JPN-PFHXS-CSCL-2025", "SRC-USFJ-JEGS-2024"],
+      "parent_ids": ["FGS-JPN-JEGS-2024"],
+      "review_state": "needs_revalidation",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "DEU-PFAS-DRINKING-WATER-2026",
+      "title": "German PFAS drinking-water limits begin phased implementation",
+      "record_type": "regulation",
+      "layer_id": "host-nation",
+      "jurisdiction_id": "DEU",
+      "status": "effective",
+      "publication_date": "2023-06-23",
+      "effective_date": "2026-01-12",
+      "date_precision": "day",
+      "substances": ["PFAS-20", "PFHxS", "PFOS", "PFOA", "PFNA"],
+      "summary": "Germany's Drinking Water Ordinance applies a cumulative PFAS-20 limit of 0.1 micrograms per liter from January 12, 2026 and a PFAS-4 limit of 0.02 micrograms per liter from 2028.",
+      "determination": "The 2026 PFAS-20 limit is an active German host-nation drinking-water requirement. The 2028 PFAS-4 limit is a future compliance milestone that should remain visible in the tracker.",
+      "operational_relevance": [
+        "drinking-water monitoring",
+        "water treatment",
+        "installation water systems",
+        "German/EU FGS comparison",
+        "future planning and procurement"
+      ],
+      "milestones": [
+        {
+          "date": "2028-01-12",
+          "label": "PFAS-4 limit",
+          "value": "0.02 micrograms per liter cumulative"
+        }
+      ],
+      "facts": [
+        "The German Environment Agency describes the two-stage PFAS drinking-water limits."
+      ],
+      "inferences": [
+        "German installations should compare the PFAS-20 and PFAS-4 requirements with the current GFGS and installation water-quality program."
+      ],
+      "verification_need": [
+        "Confirm the current GFGS provision and any German federal or Länder implementation guidance applicable to the installation."
+      ],
+      "source_ids": ["SRC-DE-UBA-DRINKING-WATER", "SRC-DE-GFGS-2019-PUBLIC-COPY"],
+      "parent_ids": ["FGS-DEU-GFGS-2019-PUBLIC"],
+      "review_state": "needs_revalidation",
+      "last_verified": "2026-08-20"
+    },
+    {
+      "id": "EU-REACH-PFAS-FOAM-2025",
+      "title": "EU REACH restriction on PFAS in firefighting foams",
+      "record_type": "regulation",
+      "layer_id": "host-nation",
+      "jurisdiction_id": "EU",
+      "status": "effective",
+      "publication_date": "2025-10-02",
+      "effective_date": "2025-10-23",
+      "date_precision": "day",
+      "substances": ["PFAS"],
+      "summary": "Commission Regulation (EU) 2025/1988 adds a PFAS firefighting-foam restriction to REACH Annex XVII. It establishes a general 1 mg/L sum-of-PFAS market/use restriction from October 23, 2030, with transitional derogations and interim management requirements.",
+      "determination": "The EU restriction is directly applicable in Member States. The tracker must separately evaluate its interaction with SOFA, the current Germany FGS, defense-specific provisions, installation type, and contractor activities.",
+      "operational_relevance": [
+        "AFFF inventory",
+        "fire training and testing",
+        "class B fire use",
+        "foam and wastewater collection",
+        "management plans",
+        "labeling",
+        "fluorine-free substitution"
+      ],
+      "milestones": [
+        {
+          "date": "2026-10-23",
+          "label": "Use conditions and labeling",
+          "value": "Class B use, emission reduction, separate collection/treatment, site-specific management plan, and labeling requirements apply to covered uses."
+        },
+        {
+          "date": "2027-04-23",
+          "label": "Training and public-service transitional date",
+          "value": "Certain training/testing and public-service derogations end, subject to the regulation's conditions."
+        },
+        {
+          "date": "2030-10-23",
+          "label": "General restriction",
+          "value": "PFAS firefighting foams at or above 1 mg/L sum of PFAS may not be placed on the market or used, subject to specified derogations."
+        },
+        {
+          "date": "2035-10-23",
+          "label": "Certain defense and other transitional uses",
+          "value": "Specified derogations, including military vessels, reach their stated end date."
+        }
+      ],
+      "facts": [
+        "The regulation states that it is binding in its entirety and directly applicable in Member States.",
+        "The regulation requires a place-specific PFAS firefighting-foam management plan for covered use after October 23, 2026 and requires the plan to be retained for at least 15 years."
+      ],
+      "inferences": [
+        "Germany-based installations should begin inventory, training, containment, waste, and substitution reviews before the October 23, 2026 milestone."
+      ],
+      "verification_need": [
+        "Confirm treatment of installation, airfield, and contractor uses that are not covered by the regulation's specific military-vessel derogation."
+      ],
+      "source_ids": ["SRC-EU-REACH-FOAM-2025"],
+      "parent_ids": ["FGS-DEU-GFGS-2019-PUBLIC"],
+      "review_state": "verified",
+      "last_verified": "2026-08-20"
+    }
+  ]
+}
