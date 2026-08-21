@@ -1,0 +1,46 @@
+{
+  "jurisdictions": [
+    {
+      "id": "US-FED",
+      "name": "United States federal",
+      "kind": "federal",
+      "parent_id": null,
+      "notes": "EPA, federal agencies, Federal Register, and federal courts."
+    },
+    {
+      "id": "DOD-OVERSEAS",
+      "name": "U.S. Department of Defense overseas",
+      "kind": "institutional",
+      "parent_id": "US-FED",
+      "notes": "DoD policy, OEBGD, FGS, components, combatant commands, and installations outside the United States."
+    },
+    {
+      "id": "ROK",
+      "name": "Republic of Korea",
+      "kind": "host-nation",
+      "parent_id": null,
+      "notes": "Includes national law and relevant Korean environmental authorities."
+    },
+    {
+      "id": "JPN",
+      "name": "Japan",
+      "kind": "host-nation",
+      "parent_id": null,
+      "notes": "Includes national law and prefectural or municipal requirements where applicable."
+    },
+    {
+      "id": "DEU",
+      "name": "Germany",
+      "kind": "host-nation",
+      "parent_id": "EU",
+      "notes": "Includes German federal and Länder requirements."
+    },
+    {
+      "id": "EU",
+      "name": "European Union",
+      "kind": "supranational",
+      "parent_id": null,
+      "notes": "EU regulations, directives, REACH, ECHA, and other directly relevant European measures affecting Germany."
+    }
+  ]
+}

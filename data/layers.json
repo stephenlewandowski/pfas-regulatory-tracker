@@ -1,0 +1,55 @@
+{
+  "project_id": "PFAS-REG-TRACKER",
+  "core_model": [
+    "us-federal",
+    "oebgd",
+    "fgs",
+    "sofa-agreement",
+    "host-nation",
+    "installation-obligation"
+  ],
+  "layers": [
+    {
+      "id": "us-federal",
+      "sequence": 1,
+      "name": "U.S. federal law and EPA/court actions",
+      "record_types": ["statute", "rule", "determination", "guidance", "enforcement-policy", "court-action", "agency-action"],
+      "description": "Primary U.S. federal PFAS legal and regulatory spine."
+    },
+    {
+      "id": "oebgd",
+      "sequence": 2,
+      "name": "Overseas Environmental Baseline Guidance Documents",
+      "record_types": ["oebgd-volume", "oebgd-change", "oebgd-guidance"],
+      "description": "DoD overseas environmental baseline and implementation framework."
+    },
+    {
+      "id": "fgs",
+      "sequence": 3,
+      "name": "Country-specific Final Governing Standards",
+      "record_types": ["fgs-revision", "fgs-provision", "fgs-review"],
+      "description": "Country-specific DoD environmental standards that reconcile OEBGD, host-nation standards, and applicable agreements."
+    },
+    {
+      "id": "sofa-agreement",
+      "sequence": 4,
+      "name": "SOFA and international agreements",
+      "record_types": ["sofa-provision", "bilateral-agreement", "working-group-action", "international-agreement"],
+      "description": "Agreements and implementation arrangements affecting environmental authority, applicability, permits, consultation, and responsibilities."
+    },
+    {
+      "id": "host-nation",
+      "sequence": 5,
+      "name": "Host-nation law and guidance",
+      "record_types": ["statute", "regulation", "ordinance", "standard", "agency-guidance", "monitoring", "court-action"],
+      "description": "National, regional, and local PFAS-related legal and technical developments, including Germany/EU overlay."
+    },
+    {
+      "id": "installation-obligation",
+      "sequence": 6,
+      "name": "Installation, component, and contractor obligations",
+      "record_types": ["obligation", "review-task", "permit-task", "contract-requirement", "sampling-requirement", "decision-point"],
+      "description": "Operational actions and determinations mapped to the governing records above."
+    }
+  ]
+}
