@@ -1,0 +1,27 @@
+name: Validate PFAS tracker
+
+on:
+  push:
+    branches: [main, public-release]
+  pull_request:
+    branches: [main]
+  schedule:
+    # Weekly re-validation and data-surface check; regulatory data drifts over time.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run project validator
+        run: python3 scripts/validate_project.py
