@@ -26,7 +26,7 @@ OEBGD and FGS records are kept separate from host-nation law. An FGS is a DoD co
 - Countries: Republic of Korea, Japan, and Germany/EU.
 - Operational themes: drinking water, wastewater, AFFF and firefighting foam, hazardous materials, waste, spills, soil and groundwater, laboratories, contracts, and remediation.
 
-The current seed set was checked against official sources on 2026-08-20. It is an architecture and evidence register, not a legal opinion.
+The current seed set was checked against official sources on 2026-08-20. A targeted Japan/Yokosuka recheck was completed on 2026-09-21 for the public JEGS page and 2024 JEGS, Yokosuka City Tokyo Bay monitoring, and Navy Region Japan water-quality resources. It is an architecture and evidence register, not a legal opinion. Yokosuka City results are off-installation receiving-water context, not CFAY drinking-water evidence or source-attribution evidence.
 
 ## Quick validation
 
@@ -75,7 +75,9 @@ scripts/
 - [DENIX Final Governing Standards framework](https://www.denix.osd.mil/international/policy/final-governing-standards/)
 - [USFK publications](https://www.usfk.mil/Resources/Publications/)
 - [USFJ Japan Environmental Governing Standards](https://www.usfj.mil/Resources/JEGS/)
+- [Yokosuka City PFOS/PFOA water measurements](https://www.city.yokosuka.kanagawa.jp/4120/pfos.html)
+- [Commander, Navy Region Japan water-quality reports](https://cnrj.cnic.navy.mil/Operations-and-Management/Water-Quality-Information/Water-quality-reports/)
+- [CNIC drinking-water sampling and testing for PFAS](https://www.cnic.navy.mil/Operations-and-Management/Base-Support/Environmental/Water-Quality-Information/Drinking-Water-Sampling-and-Testing-for-PFAS/)
 - [Japan Ministry of the Environment PFAS drinking-water action](https://www.env.go.jp/press/press_00075.html)
 - [German Environment Agency drinking-water PFAS limits](https://www.umweltbundesamt.de/en/press/pressinformation/new-drinking-water-ordinance-ensures-high-quality)
 - [EU REACH firefighting-foam restriction](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202501988)
-

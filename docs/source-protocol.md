@@ -9,6 +9,8 @@ Use primary sources in this order:
 3. Official agency guidance, technical documents, monitoring results, and public consultation materials.
 4. Secondary legal and technical analysis for discovery, context, and issue spotting.
 
+Municipal or regional monitoring outside an installation must be treated as contextual evidence only. It must not be treated as installation compliance evidence or source attribution without installation-specific records.
+
 LinkedIn posts, news articles, law-firm alerts, and trade publications may identify a development but should not be the sole evidence for a final status determination.
 
 ## Original-language requirement
@@ -61,4 +63,3 @@ Every reviewed item should identify:
 - applicability determination or unresolved question;
 - whether an FGS crosswalk is required;
 - next review date or trigger.
-

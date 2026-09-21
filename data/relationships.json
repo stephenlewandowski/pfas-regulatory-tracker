@@ -67,6 +67,17 @@
       "source_ids": ["SRC-USFJ-JEGS-2024", "SRC-JPN-PFHXS-CSCL-2025"]
     },
     {
+      "id": "REL-JEGS-YOKOSUKA-MONITORING",
+      "relationship_type": "host_nation_monitoring_context",
+      "from_type": "event",
+      "from_id": "JPN-YOKOSUKA-TOKYO-BAY-PFAS-2026",
+      "to_type": "event",
+      "to_id": "FGS-JPN-JEGS-2024",
+      "status": "context_only_review_required",
+      "rationale": "Yokosuka City's off-installation monitoring provides host-nation context for JEGS water, wastewater, stormwater, and spill review, but is not CFAY drinking-water evidence and does not establish source attribution or JEGS compliance.",
+      "source_ids": ["SRC-YOKOSUKA-PFAS-WATER-2026", "SRC-USFJ-JEGS-2024"]
+    },
+    {
       "id": "REL-GFGS-DEU-WATER",
       "relationship_type": "host_nation_crosswalk",
       "from_type": "event",

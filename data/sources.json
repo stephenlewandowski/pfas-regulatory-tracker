@@ -84,8 +84,8 @@
       "language": "en",
       "officiality": "official",
       "source_status": "official_current",
-      "why_retained": "Current JEGS landing page and amendment-cycle anchor.",
-      "last_verified": "2026-08-20"
+      "why_retained": "Current JEGS landing page and amendment-cycle anchor; as of September 21, 2026, the public page still points to the 2024 JEGS document.",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "SRC-USFJ-JEGS-2024",
@@ -98,8 +98,45 @@
       "source_status": "official_current_public",
       "publication_date": "2024-04-01",
       "date_note": "Public document identifies April 2024; exact issuance day is not used for legal dating.",
-      "why_retained": "Current public Japan FGS source; identifies SOFA and exclusive-use applicability, two-year updates, and host-nation comparison process.",
-      "last_verified": "2026-08-20"
+      "why_retained": "Current public Japan FGS source; the public USFJ JEGS page still points to this 2024 document as of September 21, 2026. It identifies SOFA and exclusive-use applicability, two-year updates, and host-nation comparison process.",
+      "last_verified": "2026-09-21"
+    },
+    {
+      "id": "SRC-YOKOSUKA-PFAS-WATER-2026",
+      "title": "Yokosuka City PFOS/PFOA Tokyo Bay water measurements",
+      "authority": "Yokosuka City",
+      "source_type": "monitoring-result",
+      "source_url": "https://www.city.yokosuka.kanagawa.jp/4120/pfos.html",
+      "language": "ja",
+      "officiality": "official",
+      "source_status": "official_current",
+      "publication_date": "2026-09-09",
+      "why_retained": "Contextual host-nation evidence for combined PFOS/PFOA in Tokyo Bay, including three Yokosuka-port points. It is not CFAY drinking-water evidence and does not determine PFAS source attribution.",
+      "last_verified": "2026-09-21"
+    },
+    {
+      "id": "SRC-CNRJ-CFAY-WATER-REPORTS",
+      "title": "Commander Navy Region Japan water-quality reports",
+      "authority": "Commander, Navy Region Japan",
+      "source_type": "official-index",
+      "source_url": "https://cnrj.cnic.navy.mil/Operations-and-Management/Water-Quality-Information/Water-quality-reports/",
+      "language": "en",
+      "officiality": "official",
+      "source_status": "official_current",
+      "why_retained": "The index lists 2025 CFA Yokosuka consumer-confidence reports; the report contents still require retrieval and review for site-specific PFAS results.",
+      "last_verified": "2026-09-21"
+    },
+    {
+      "id": "SRC-CNIC-PFAS-SAMPLING",
+      "title": "CNIC drinking-water sampling and testing for PFAS",
+      "authority": "Commander, Navy Installations Command",
+      "source_type": "official-page",
+      "source_url": "https://www.cnic.navy.mil/Operations-and-Management/Base-Support/Environmental/Water-Quality-Information/Drinking-Water-Sampling-and-Testing-for-PFAS/",
+      "language": "en",
+      "officiality": "official",
+      "source_status": "official_current",
+      "why_retained": "Official CNIC policy context for installation-specific DoD drinking-water PFAS sampling and consumer-confidence reporting; it does not substitute for CFAY records.",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "SRC-ROK-WATER-LAW",

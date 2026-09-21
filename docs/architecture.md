@@ -20,6 +20,8 @@ Installation, component, and contractor obligations
 
 The arrows represent a review and implementation relationship. They do not mean that every lower-layer document automatically incorporates every upper-layer provision or that every host-nation law applies identically to every DoD activity.
 
+Evidence boundary: municipal or regional monitoring outside an installation may provide host-nation receiving-water context, but it must not be treated as installation compliance evidence or source attribution without installation-specific records. In particular, off-installation Yokosuka City Tokyo Bay results are not CFAY drinking-water evidence, do not sample inside CFAY, and cannot establish CFAY compliance or noncompliance.
+
 ## Layer rules
 
 ### U.S. federal law and EPA/court actions
@@ -94,4 +96,3 @@ The first operational crosswalks should address:
 - spill reporting and emergency response;
 - laboratory accreditation, analytical methods, and quality assurance;
 - contractor permits and procurement restrictions.
-
