@@ -120,8 +120,8 @@
       "fgs_name": "Japan Environmental Governing Standards",
       "fgs_version": "2024",
       "review_cycle": "two years stated by USFJ",
-      "summary": "USFJ's 2024 JEGS reconciles U.S. requirements, international agreements, and applicable Japanese environmental standards, adopting the more protective standard where required by the FGS framework.",
-      "determination": "The 2024 JEGS is the current public Japan FGS anchor for this starter project. Applicability must be tested against exclusive-use, limited-use, joint-use, contractor, and off-installation contexts.",
+      "summary": "USFJ's 2024 JEGS reconciles U.S. requirements, international agreements, and applicable Japanese environmental standards, adopting the more protective standard where required by the FGS framework. As of September 21, 2026, the public USFJ JEGS page still identifies the 2024 JEGS, and no public 2026 JEGS revision or interim amendment was located in the reviewed official sources.",
+      "determination": "The 2024 JEGS remains the current public Japan FGS anchor as of September 21, 2026. The later Japanese 50 ng/L combined PFOS/PFOA drinking-water standard still requires a current JEGS/LEC applicability or incorporation determination. Applicability must be tested against exclusive-use, limited-use, joint-use, contractor, and off-installation contexts.",
       "operational_relevance": [
         "USFJ installation environmental compliance",
         "drinking water",
@@ -132,18 +132,21 @@
       ],
       "facts": [
         "USFJ identifies the 2024 JEGS as promulgated through the bilateral amendment process.",
-        "The JEGS states that it is the primary environmental standards source for U.S. Forces Japan and is updated on a two-year cycle."
+        "The JEGS states that it is the primary environmental standards source for U.S. Forces Japan and is updated on a two-year cycle.",
+        "As of September 21, 2026, the public USFJ JEGS page still identifies the 2024 JEGS.",
+        "No public 2026 JEGS revision or interim amendment was located in the reviewed official sources through September 21, 2026."
       ],
       "inferences": [
-        "The 2026 OEBGD Volume 1 change should create a JEGS revalidation task."
+        "The 2026 OEBGD Volume 1 change should create a JEGS revalidation task.",
+        "The later Japanese 50 ng/L combined PFOS/PFOA drinking-water standard may require an updated JEGS crosswalk or written LEC applicability determination."
       ],
       "verification_need": [
-        "Confirm whether a 2026 JEGS revision or interim amendment has been issued."
+        "Confirm through USFJ/LEC records whether a 2026 JEGS revision, nonpublic interim amendment, or written applicability decision has been issued, and determine how the later Japanese 50 ng/L combined PFOS/PFOA drinking-water standard is incorporated or otherwise applies."
       ],
       "source_ids": ["SRC-USFJ-JEGS-PAGE", "SRC-USFJ-JEGS-2024", "SRC-DODI-4715-05"],
       "parent_ids": ["OEBGD-V1-CHANGE1-2026"],
       "review_state": "needs_revalidation",
-      "last_verified": "2026-08-20"
+      "last_verified": "2026-09-21"
     },
     {
       "id": "FGS-DEU-GFGS-2019-PUBLIC",
@@ -247,6 +250,42 @@
       "parent_ids": ["FGS-JPN-JEGS-2024"],
       "review_state": "verified",
       "last_verified": "2026-08-20"
+    },
+    {
+      "id": "JPN-YOKOSUKA-TOKYO-BAY-PFAS-2026",
+      "title": "Yokosuka City Tokyo Bay PFOS/PFOA monitoring remains below 50 ng/L",
+      "record_type": "monitoring-result",
+      "layer_id": "host-nation",
+      "jurisdiction_id": "JPN",
+      "status": "monitoring",
+      "publication_date": "2026-09-09",
+      "date_precision": "day",
+      "substances": ["PFOS", "PFOA"],
+      "summary": "Yokosuka City monitors seven Tokyo Bay locations for combined PFOS/PFOA. The September 2, 2026 values at the three Yokosuka-port points were 3.4, 3.5, and 3.3 ng/L; the highest displayed value in the March-September 2026 series was 11 ng/L at Fukura Bay on July 1, and all displayed results remained below the 50 ng/L guideline.",
+      "determination": "No combined PFOS/PFOA exceedance appears in the reported seven-site monitoring record. These are off-installation receiving-water results, not CFAY drinking-water results; the monitoring does not sample inside CFAY, identify the source of PFAS, or establish CFAY compliance or noncompliance.",
+      "operational_relevance": [
+        "CFAY stormwater review",
+        "CFAY wastewater review",
+        "spill-response planning",
+        "community-interface review",
+        "host-nation monitoring context"
+      ],
+      "facts": [
+        "Yokosuka City monitors seven Tokyo Bay locations.",
+        "The September 2, 2026 combined PFOS/PFOA values at the three Yokosuka-port points were 3.4, 3.5, and 3.3 ng/L.",
+        "The highest value in the displayed March-September 2026 series was 11 ng/L at Fukura Bay on July 1.",
+        "All displayed results remained below the 50 ng/L guideline.",
+        "The reported measurements are combined PFOS and PFOA values in ng/L."
+      ],
+      "inferences": [
+        "Inference: The data are relevant context for CFAY stormwater, wastewater, spill-response, and community-interface review, but cannot support source attribution or a CFAY drinking-water conclusion."
+      ],
+      "verification_need": [
+        "Retrieve and compare CFAY drinking-water, installation PFAS sampling, discharge and stormwater, soil and groundwater, and environmental supplemental-agreement records before making a release, source, exposure, or compliance determination."
+      ],
+      "source_ids": ["SRC-YOKOSUKA-PFAS-WATER-2026"],
+      "review_state": "verified",
+      "last_verified": "2026-09-21"
     },
     {
       "id": "JPN-PFHXS-CSCL-2026",

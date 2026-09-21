@@ -81,6 +81,42 @@
       "source_ids": ["SRC-JPN-PFHXS-CSCL-2025", "SRC-USFJ-JEGS-2024"]
     },
     {
+      "id": "OBL-JPN-YOKOSUKA-CFAY-EVIDENCE-REVIEW",
+      "title": "Separate Yokosuka receiving-water monitoring from CFAY compliance evidence",
+      "record_type": "review-task",
+      "layer_id": "installation-obligation",
+      "jurisdiction_id": "JPN",
+      "status": "open",
+      "applies_to": [
+        "Commander Fleet Activities Yokosuka",
+        "USFJ environmental program",
+        "stormwater and wastewater programs",
+        "spill-response teams",
+        "water-quality and environmental contractors"
+      ],
+      "trigger_event_ids": [
+        "JPN-YOKOSUKA-TOKYO-BAY-PFAS-2026",
+        "FGS-JPN-JEGS-2024"
+      ],
+      "action": "Use Yokosuka City's Tokyo Bay results as off-installation context only. Retrieve and compare CFAY drinking-water reports, installation PFAS sampling, discharge and stormwater records, soil and groundwater records, and any environmental supplemental-agreement sampling before making a release, source, exposure, or compliance determination.",
+      "evidence_needed": [
+        "CFAY drinking-water reports",
+        "installation PFAS sampling",
+        "discharge and stormwater records",
+        "soil and groundwater records",
+        "environmental supplemental-agreement sampling",
+        "current JEGS/LEC applicability determination"
+      ],
+      "uncertainty": "The seven city monitoring points are not inside CFAY and cannot establish the source of PFOS/PFOA or the compliance status of CFAY drinking water.",
+      "review_state": "open",
+      "last_verified": "2026-09-21",
+      "source_ids": [
+        "SRC-YOKOSUKA-PFAS-WATER-2026",
+        "SRC-CNRJ-CFAY-WATER-REPORTS",
+        "SRC-CNIC-PFAS-SAMPLING"
+      ]
+    },
+    {
       "id": "OBL-DEU-DRINKING-WATER-REVIEW",
       "title": "Compare German PFAS drinking-water limits with the current GFGS",
       "record_type": "review-task",
